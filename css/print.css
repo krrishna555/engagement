@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+@media print {
+  
+}
+@media print{
+	body {
+  -webkit-print-color-adjust: exact;
+}
+   .noprint{
+       display:none;
+   }
+   a[href]:after {
+    content: none !important;
+  }
+  .navbar {
+        display: block;
+        border-width:0 !important;
+		height: 120px;
+    }
+    .navbar-toggle {
+        display:none;
+    }
+	#cont1{
+        background-color: #B6C9DE !important;
+		page-break-after: always;
+     }
+	#cont2{
+        background-color: #B6DEBE !important;
+    }
+		.text{
+        background-color: #DEB6D9 !important;
+    }
+
+}
+
+</style>
+</head>
+</html>
